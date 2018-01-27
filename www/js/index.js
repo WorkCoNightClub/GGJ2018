@@ -28,31 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        //create the context for the web audio
-var audioCtx = new window.AudioContext();
-//create, tune, start and connect each oscillator sinea, sineb and sinec
-var sinea = audioCtx.createOscillator();
-var gainNode = audioCtx.createGain();
 
-
-
-sinea.frequency.value = 440;
-sinea.type = "sine";
-sinea.start();
-sinea.connect(gainNode);
-var sineb = audioCtx.createOscillator();
-sineb.frequency.value = 523.25;
-sineb.type = "sine";
-sineb.start();
-sineb.connect(gainNode);
-var sinec = audioCtx.createOscillator();
-sinec.frequency.value = 698.46;
-sinec.type = "sine";
-sinec.start();
-
-sinec.connect(gainNode);
-
-gainNode.connect(audioCtx.destination);
     },
 
     // Update DOM on a Received Event

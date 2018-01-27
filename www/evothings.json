@@ -1,3 +1,19 @@
 {
-  "uuid": "88e11c99-c9df-4cdb-a70b-9da6d4ff7379"
+  "uuid": "88e11c99-c9df-4cdb-a70b-9da6d4ff7379",
+  "plugins": [
+    {
+      "name": "cordova-plugin-ble",
+      "version": "2.0.1"
+    }
+  ],
+  "libraries": [],
+  "name": "www",
+  "title": "Hello World",
+  "description": "App oneline description.",
+  "long-description": "App long description.",
+  "version": "",
+  "author-name": "Evothings",
+  "author-email": "build@evothings.com",
+  "author-url": "https://evothings.com",
+  "cordova-id": "com.evothings.samples.www"
 }
