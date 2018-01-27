@@ -4,9 +4,17 @@
     {
       "name": "cordova-plugin-ble",
       "version": "2.0.1"
+    },
+    {
+      "name": "cordova-plugin-console"
     }
   ],
-  "libraries": [],
+  "libraries": [
+    {
+      "name": "jquery",
+      "version": "2.1.1"
+    }
+  ],
   "name": "www",
   "title": "Hello World",
   "description": "App oneline description.",
